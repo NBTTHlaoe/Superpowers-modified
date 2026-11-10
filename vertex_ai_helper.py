@@ -9,7 +9,7 @@ from google import genai
 from google.genai import types
 
 PROJECT_ID = os.environ.get("GOOGLE_CLOUD_PROJECT", "project-b637a764-1cbb-4743-a3a")
-LOCATION = os.environ.get("GOOGLE_CLOUD_LOCATION", "us-central1")
+LOCATION = os.environ.get("GOOGLE_CLOUD_LOCATION", "global")
 
 def get_vertex_client():
     """Khởi tạo GenAI Client kết nối Vertex AI."""
